@@ -1,0 +1,25 @@
+{
+  "name": "choon",
+  "version": "0.0.0",
+  "jest": {
+    "extraGlobals": [],
+    "modulePaths": [
+      "C:\\Users\\ungerw\\AppData\\Roaming\\npm\\node_modules\\selenium-side-runner\\node_modules",
+      "C:\\Users\\ungerw\\AppData\\Roaming\\npm\\node_modules"
+    ],
+    "setupFilesAfterEnv": [
+      "C:\\Users\\ungerw\\AppData\\Roaming\\npm\\node_modules\\selenium-side-runner\\node_modules\\jest-environment-selenium\\dist\\setup.js"
+    ],
+    "testEnvironment": "jest-environment-selenium",
+    "testEnvironmentOptions": {
+      "capabilities": {
+        "browserName": "chrome"
+      },
+      "params": {},
+      "runId": "3919a3c4fd93c50a8d4698c38a6166b7",
+      "path": "C:\\Users\\ungerw\\AppData\\Roaming\\npm\\node_modules\\",
+      "timeout": 15000
+    }
+  },
+  "dependencies": {}
+}

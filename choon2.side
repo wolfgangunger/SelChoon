@@ -1,0 +1,67 @@
+{
+  "id": "c0dd993c-d4cd-4442-90ac-09e4254d679d",
+  "version": "2.0",
+  "name": "choon",
+  "url": "https://choon.co",
+  "tests": [{
+    "id": "c4a74425-58b7-48fd-ab09-57cc8a6095d9",
+    "name": "Untitled",
+    "commands": [{
+      "id": "656ca209-c0ed-41c2-a2b9-6a968730f43e",
+      "comment": "",
+      "command": "open",
+      "target": "/playlists/0ie6ufwq294/wolf-richards-best-of",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da96ca16-dc27-4401-a2de-7cdfef808331",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1282x682",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7f92f9c-97b6-47c6-8a80-5ba734b1b43a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ch-track-list__row:nth-child(1) > td > .ch-icon > path:nth-child(2)",
+      "targets": [
+        ["css=.ch-track-list__row:nth-child(1) > td > .ch-icon > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "694ec1f7-1b5e-411c-85ec-df45db50b15a",
+      "comment": "",
+      "command": "wait",
+      "target": "",
+      "targets": [],
+      "value": "60000"
+    }, {
+      "id": "c54ff2f3-beee-48f8-a090-f4396e4ea7a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ch-track-list__row:nth-child(2) > td > .ch-icon > path:nth-child(2)",
+      "targets": [
+        ["css=.ch-track-list__row:nth-child(2) > td > .ch-icon > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa830d0-7ecb-4f3f-968a-8b7b5119cd90",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "03b0b575-553f-4228-b0f7-3a50025c3a56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c4a74425-58b7-48fd-ab09-57cc8a6095d9"]
+  }],
+  "urls": ["https://choon.co/"],
+  "plugins": []
+}
